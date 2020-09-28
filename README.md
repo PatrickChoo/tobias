@@ -9,6 +9,21 @@ QQ Group：892398530。
 
 Tobias is a  flutter plugin for AliPaySDK.
 
+## About Branch "ios_nopay"
+Scenario：Use Alipay in Android App, but use IAP instead in iOS.
+```
+  tobias:
+    git:
+      url: https://github.com/patrickchoo/tobias.git
+      ref: ios_nopay
+```
+Use Alipay in both iOS and Android
+OpenFlutter Tobias https://github.com/OpenFlutter/tobias
+```
+  tobias: ^1.7.1+1
+```
+
+
 ## Getting Started
 
 I highly recommend that you read  [the official documents](https://docs.open.alipay.com/204/105051/) before using tobias.
