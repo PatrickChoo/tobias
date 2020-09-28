@@ -7,6 +7,25 @@ QQ 群：892398530。
 
 Tobias是一个为支付宝支付SDK做的Flutter插件。
 
+## iOS 下无支付宝版本
+使用场景：android使用支付宝，iOS使用IAP。
+
+适合在iOS必须使用IAP内购，不能使用第三方支付的，而在android则自由使用第三方支付的情况。
+
+注意：自用，未经测试
+
+iOS无支付宝SDK，android带支付宝SDK
+```
+  tobias:
+    git:
+      url: https://github.com/patrickchoo/tobias.git
+      ref: ios_nopay
+```
+android及iOS同时带支付宝
+可以直接使用OpenFlutter的原仓 https://github.com/OpenFlutter/tobias
+```
+  tobias: ^1.7.1+1
+```
 ## 开始
 
 在使用前强烈阅读[官方接入指南](https://docs.open.alipay.com/204/105051/)。
